@@ -1,0 +1,78 @@
+
+.container.data-v-ae6064fd {
+  padding: 20rpx;
+}
+.filter-bar.data-v-ae6064fd {
+  display: flex;
+  white-space: nowrap;
+  border-bottom: 2rpx solid #eee;
+  padding-bottom: 10rpx;
+}
+.filter-bar text.data-v-ae6064fd {
+  font-size: 28rpx;
+  padding: 10rpx 20rpx;
+  margin-right: 10rpx;
+  color: #666;
+}
+.filter-bar .active.data-v-ae6064fd {
+  color: #007aff;
+  font-weight: bold;
+}
+.task-card.data-v-ae6064fd {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-top: 20rpx;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.task-header.data-v-ae6064fd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-title.data-v-ae6064fd {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.task-status.data-v-ae6064fd {
+  font-size: 26rpx;
+  padding: 6rpx 12rpx;
+  border-radius: 8rpx;
+  color: #fff;
+}
+.status-in-progress.data-v-ae6064fd {
+  background-color: #ffcc00;
+}
+.status-complete.data-v-ae6064fd {
+  background-color: #4caf50;
+}
+.status-cancelled.data-v-ae6064fd {
+  background-color: #f44336;
+}
+.task-info.data-v-ae6064fd {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #444;
+  line-height: 1.6;
+}
+.task-actions.data-v-ae6064fd {
+  margin-top: 30rpx;
+  display: flex;
+  gap: 20rpx;
+}
+button.data-v-ae6064fd {
+  font-size: 28rpx;
+  border-radius: 12rpx;
+  color: #fff;
+  background: #204dad;
+}
+.cancel-btn.data-v-ae6064fd {
+  background: #f44336;
+}
+.empty-message.data-v-ae6064fd {
+  text-align: center;
+  margin-top: 100rpx;
+  color: #999;
+  font-size: 28rpx;
+}

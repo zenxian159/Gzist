@@ -1,0 +1,1 @@
+<view class="container"><view class="product-card"><image class="product-img" src="{{a}}" mode="aspectFill"/><view class="product-info"><text class="title">{{b}}</text><view class="description">{{c}}</view><view class="price">￥{{d}}</view></view></view><button class="buy-button" bindtap="{{e}}">确认购买</button></view>

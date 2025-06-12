@@ -1,0 +1,124 @@
+
+page {
+		margin: 0;
+		padding: 0;
+}
+
+	/* 主容器 */
+.chat-container {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+}
+.product-info {
+		height: 140rpx;
+		display: flex;
+		align-items: center;
+		padding: 20rpx 30rpx;
+		border-bottom: 2rpx solid #ddd;
+		background: #fff;
+}
+.product-image {
+		width: 70px;
+		height: 70px;
+		border-radius: 10rpx;
+}
+.product-detail {
+		flex: 1;
+		width: 200px;
+		margin-left: 20rpx;
+		margin-right: 20rpx;
+}
+.product-title {
+		width: 180px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 40rpx;
+		font-weight: bold;
+		margin-bottom: 16rpx;
+}
+.product-price {
+		font-size: 32rpx;
+		color: #e64340;
+}
+.action-btn {
+		border-radius: 20rpx;
+		font-size: 32rpx;
+		padding: 0;
+		width: 200rpx !important;
+		background-color: #204dad;
+		color: #fff;
+}
+.action-btn.primary {
+		background-color: #204dad;
+		color: #fff;
+}
+.chat-messages {
+		box-sizing: border-box;
+		padding: 20rpx 0;
+		height: calc(100vh - 320rpx);
+}
+.chat-item {
+		display: flex;
+		align-items: center;
+		margin: 0 20rpx 30rpx;
+}
+.chat-item.me {
+		justify-content: flex-start;
+		flex-direction: row-reverse;
+}
+.chat-item.other {
+		justify-content: flex-start;
+}
+.avatar {
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 50%;
+		margin: 0 16rpx;
+}
+.chat-bubble {
+		max-width: 60%;
+		padding: 20rpx;
+		background-color: #eee;
+		border-radius: 16rpx;
+		word-wrap: break-word;
+		font-size: 28rpx;
+}
+.chat-item.me .chat-bubble {
+		color: #fff;
+		background-color: #204dad;
+}
+
+	/* 输入框区域 */
+.input-area {
+		display: flex;
+		align-items: center;
+		background: white;
+		padding: 20rpx;
+		border-top: 2rpx solid #ddd;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+}
+
+	/* 输入框 */
+.input-box {
+		flex: 1;
+		height: 60rpx;
+		padding: 10rpx;
+		border-radius: 20rpx;
+		border: 2rpx solid #ccc;
+		margin-right: 10rpx;
+}
+
+	/* 发送按钮 */
+.send-button {
+		width: 160rpx !important;
+		background-color: #204dad;
+		color: white;
+		padding: 5rpx;
+		border-radius: 10rpx;
+		font-size: 28rpx;
+		margin-right: 40rpx !important;
+}

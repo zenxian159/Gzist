@@ -1,0 +1,78 @@
+
+.home.data-v-1cf27b2a {
+  margin: 15px;
+  background: #f9f9f9;
+}
+.grid-nav.data-v-1cf27b2a {
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24rpx;
+  margin-bottom: 40rpx;
+}
+.nav-item.data-v-1cf27b2a {
+  text-align: center;
+  padding: 10rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  transition: transform 0.2s ease;
+}
+.nav-item image.data-v-1cf27b2a {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+.nav-item text.data-v-1cf27b2a {
+  font-size: 24rpx;
+  color: #333;
+}
+.nav-item.data-v-1cf27b2a:active {
+  transform: scale(0.96);
+}
+.section-title.data-v-1cf27b2a {
+  font-weight: bold;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+.card.data-v-1cf27b2a {
+  background: white;
+  border-radius: 16rpx;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+  box-shadow: 0 6rpx 20rpx rgba(0, 0, 0, 0.08);
+}
+.card .type.data-v-1cf27b2a {
+  color: #007aff;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.card .content.data-v-1cf27b2a {
+  font-size: 28rpx;
+  color: #222;
+  margin-bottom: 10rpx;
+}
+.card .meta.data-v-1cf27b2a {
+  font-size: 22rpx;
+  color: #888;
+}
+
+/* 简单动画 */
+.animated.data-v-1cf27b2a {
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp-1cf27b2a {
+from {
+    transform: translate3d(0, 30rpx, 0);
+    opacity: 0;
+}
+to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+}
+.fadeInUp.data-v-1cf27b2a {
+  animation-name: fadeInUp-1cf27b2a;
+}

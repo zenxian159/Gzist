@@ -1,0 +1,1 @@
+<view class="home"><view class="top"><image src="{{a}}" mode="aspectFill"/><text>发布信息</text></view><view class="grid-nav"><view wx:for="{{b}}" wx:for-item="item" wx:key="c" class="nav-item" bindtap="{{item.d}}"><view><image src="{{item.a}}"/></view><text>{{item.b}}</text></view></view></view>

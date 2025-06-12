@@ -1,0 +1,69 @@
+
+.container.data-v-f80793d9 {
+  padding: 20rpx;
+  background: #f7f7f7;
+}
+.input-box.data-v-f80793d9 {
+  width: 100%;
+  min-height: 200rpx;
+  border: 1px solid #e5e5e5;
+  border-radius: 8rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  background: #fff;
+  margin-bottom: 30rpx;
+}
+.preview.data-v-f80793d9 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-bottom: 40rpx;
+}
+.file-item.data-v-f80793d9 {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+.preview-file.data-v-f80793d9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delete-btn.data-v-f80793d9 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 24rpx;
+}
+.upload-btn.data-v-f80793d9 {
+  width: 110px;
+  height: 110px;
+  border: 2rpx dashed #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 48rpx;
+  background: #fafafa;
+}
+.submitBtn.data-v-f80793d9 {
+  padding: 0 20rpx;
+}
+.submitBtn button.data-v-f80793d9 {
+  width: 100%;
+  height: 80rpx;
+  background: #204dad;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 20rpx;
+}

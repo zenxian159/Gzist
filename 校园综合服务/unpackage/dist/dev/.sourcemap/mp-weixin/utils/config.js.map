@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sources":["utils/config.js"],"sourcesContent":["const config = {\n  baseURL: \"http://127.0.0.1:3000/api\"\n};\r\n\r\nexport default config;"],"names":[],"mappings":";AAAK,MAAC,SAAS;AAAA,EACb,SAAS;AACX;;"}

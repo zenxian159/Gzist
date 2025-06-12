@@ -1,0 +1,1 @@
+<view class="chat-list"><view wx:for="{{a}}" wx:for-item="item" wx:key="e" class="chat-item" bindtap="{{item.f}}" bindlongpress="{{item.g}}"><image class="avatar" src="{{item.a}}"/><view class="info"><text class="nickname">{{item.b}}</text><text class="last-msg">{{item.c}}</text></view><text class="time">{{item.d}}</text></view></view>

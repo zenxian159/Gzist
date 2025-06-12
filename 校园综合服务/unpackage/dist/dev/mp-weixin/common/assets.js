@@ -1,0 +1,20 @@
+"use strict";
+const _imports_0$4 = "/static/image/myBanner.jpg";
+const _imports_1$1 = "/static/image/avatar.png";
+const _imports_0$3 = "/static/image/menu-icon.png";
+const _imports_1 = "/static/image/post-icon.png";
+const _imports_2 = "/static/image/manage-icon.png";
+const _imports_3 = "/static/image/order-icon.png";
+const _imports_0$2 = "/static/image/chat.png";
+const _imports_0$1 = "/static/image/edit-icon.png";
+const _imports_0 = "/static/image/icon/release.png";
+exports._imports_0 = _imports_0$4;
+exports._imports_0$1 = _imports_0$3;
+exports._imports_0$2 = _imports_0$2;
+exports._imports_0$3 = _imports_0$1;
+exports._imports_0$4 = _imports_0;
+exports._imports_1 = _imports_1$1;
+exports._imports_1$1 = _imports_1;
+exports._imports_2 = _imports_2;
+exports._imports_3 = _imports_3;
+//# sourceMappingURL=../../.sourcemap/mp-weixin/common/assets.js.map

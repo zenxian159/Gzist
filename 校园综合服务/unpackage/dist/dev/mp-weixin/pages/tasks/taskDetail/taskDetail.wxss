@@ -1,0 +1,83 @@
+
+.task-detail.data-v-24580492 {
+  background: #fff;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.1);
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.user-info.data-v-24580492 {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+}
+.avatar.data-v-24580492 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+.user-text.data-v-24580492 {
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+.nickname.data-v-24580492 {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #333;
+}
+.time.data-v-24580492 {
+  font-size: 24rpx;
+  color: #999;
+}
+.title.data-v-24580492 {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #333;
+}
+.desc.data-v-24580492 {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.location.data-v-24580492 {
+  font-size: 28rpx;
+  color: #444;
+  background: #eef5ff;
+  padding: 16rpx;
+  border-radius: 8rpx;
+}
+.reward.data-v-24580492 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #ff5722;
+  background: #fff4e6;
+  padding: 16rpx;
+  border-radius: 8rpx;
+}
+.btn.data-v-24580492 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 12rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.accept.data-v-24580492 {
+  background: #007aff;
+}
+.accept.data-v-24580492:active {
+  background: #005ecb;
+  transform: scale(0.98);
+}
+.complete.data-v-24580492 {
+  background: #28a745;
+}
+.complete.data-v-24580492:active {
+  background: #1e7e34;
+  transform: scale(0.98);
+}

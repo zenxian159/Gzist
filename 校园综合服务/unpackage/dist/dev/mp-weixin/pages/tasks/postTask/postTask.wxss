@@ -1,0 +1,57 @@
+
+.post-task.data-v-6a124b14 {
+  background: #fff;
+  padding: 40rpx;
+  margin: 20rpx;
+  border-radius: 24rpx;
+  box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 32rpx;
+}
+.title.data-v-6a124b14 {
+  font-size: 36rpx;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+/* 输入框通用样式 */
+input.data-v-6a124b14,
+textarea.data-v-6a124b14 {
+  width: 94%;
+  padding: 24rpx;
+  font-size: 32rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 16rpx;
+}
+.textarea.data-v-6a124b14 {
+  height: 160rpx;
+  resize: none;
+}
+/* 地址输入背景 */
+.address.data-v-6a124b14 {
+  background: #eef5ff;
+  border-left: 10rpx solid #024dad;
+}
+/* 酬金输入 */
+.reward-input.data-v-6a124b14 {
+  background: #fff4e6;
+  border-left: 10rpx solid #ff5722;
+  font-weight: bold;
+  color: #ff5722;
+}
+/* 发布/更新按钮 */
+.btn.data-v-6a124b14 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #fff;
+  /* padding: 28rpx; */
+  border-radius: 16rpx;
+  text-align: center;
+  background: #024dad;
+  transition: all 0.2s ease-in-out;
+}
+.btn.data-v-6a124b14:active {
+  background: #005ecb;
+  transform: scale(0.98);
+}

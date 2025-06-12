@@ -1,0 +1,120 @@
+
+.container.data-v-b1488010 {
+		padding: 20rpx;
+		background: #f7f7f7;
+}
+
+	/* 帖子卡片 */
+.post-card.data-v-b1488010 {
+		background: #fff;
+		border-radius: 12rpx;
+		padding: 20rpx;
+		margin-bottom: 20rpx;
+		box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+
+	/* 用户区 */
+.user-info.data-v-b1488010 {
+		display: flex;
+		align-items: center;
+}
+.avatar.data-v-b1488010 {
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 40rpx;
+		margin-right: 20rpx;
+}
+.user-details.data-v-b1488010 {
+		display: flex;
+		flex-direction: column;
+}
+.username.data-v-b1488010 {
+		font-size: 30rpx;
+		font-weight: bold;
+		color: #333;
+}
+.time.data-v-b1488010 {
+		font-size: 24rpx;
+		color: #999;
+		margin-top: 10rpx;
+}
+
+	/* 内容 */
+.content.data-v-b1488010 {
+		margin-top: 20rpx;
+		font-size: 28rpx;
+		color: #444;
+		line-height: 1.6;
+}
+
+	/* 媒体 */
+.media-container.data-v-b1488010 {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20rpx;
+		margin-top: 20rpx;
+}
+.media-wrap.data-v-b1488010 {
+		width: 210rpx;
+		height: 210rpx;
+}
+.media.data-v-b1488010 {
+		width: 100%;
+		height: 100%;
+		border-radius: 8rpx;
+		object-fit: cover;
+}
+
+	/* 菜单按钮 */
+.menu-button.data-v-b1488010 {
+		position: fixed;
+		bottom: 160rpx;
+		right: 40rpx;
+		width: 120rpx;
+		height: 120rpx;
+		background-color: rgba(32, 77, 173, 0.73);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 8rpx 12rpx rgba(0, 0, 0, 0.1);
+		z-index: 1000;
+}
+.menu-icon.data-v-b1488010 {
+		width: 80rpx;
+		height: 80rpx;
+}
+
+	/* 菜单容器 */
+.menu-container.data-v-b1488010 {
+		position: fixed;
+		bottom: 160rpx;
+		right: 40rpx;
+		width: 120rpx;
+		height: 120rpx;
+}
+
+	/* 菜单项 */
+.menu-item.data-v-b1488010 {
+		position: absolute;
+		width: 140rpx;
+		height: 140rpx;
+		background-color: rgba(32, 77, 173, 0.73);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		opacity: 0;
+		transform: translate(0, 0);
+		transition: all 0.3s ease;
+}
+.menu-item image.data-v-b1488010 {
+		width: 60rpx;
+		height: 60rpx;
+		margin-bottom: 10rpx;
+}
+.menu-item text.data-v-b1488010 {
+		font-size: 24rpx;
+		color: white;
+}

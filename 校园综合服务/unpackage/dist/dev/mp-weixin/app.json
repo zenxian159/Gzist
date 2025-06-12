@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/publish/selectPoint/selectPoint",
+    "pages/publish/simulatePath/simulatePath",
+    "pages/my/my",
+    "pages/my/edit/edit",
+    "pages/mall/mall",
+    "pages/mall/post/post",
+    "pages/mall/manage/manage",
+    "pages/mall/orders/orders",
+    "pages/mall/detail/detail",
+    "pages/mall/buy/buy",
+    "pages/mall/chat/chat",
+    "pages/lostAndFound/lostAndFound",
+    "pages/lostAndFound/detail/detail",
+    "pages/lostAndFound/manage/manage",
+    "pages/tasks/tasks",
+    "pages/tasks/taskDetail/taskDetail",
+    "pages/tasks/postTask/postTask",
+    "pages/tasks/myTasks/myTasks",
+    "pages/tasks/myOrders/myOrders",
+    "pages/applyRunner/applyRunner",
+    "pages/jobs/jobs",
+    "pages/jobs/jobDetail/jobDetail",
+    "pages/MutualAid/MutualAid",
+    "pages/MutualAid/aidDetail/aidDetail",
+    "pages/MutualAid/addAid/addAid",
+    "pages/MutualAid/aidManage/aidManage",
+    "pages/message/message",
+    "pages/release/release"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园综合服务",
+    "navigationBarBackgroundColor": "#ffffff",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#204dad",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tab/index.png",
+        "selectedIconPath": "static/image/tab/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "iconPath": "static/image/tab/more.png",
+        "selectedIconPath": "static/image/tab/more-active.png",
+        "text": "校园服务"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/image/tab/chat.png",
+        "selectedIconPath": "static/image/tab/chat-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/tab/my.png",
+        "selectedIconPath": "static/image/tab/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,46 @@
+
+page {
+		background: #f9f9f9;
+}
+.home {
+		margin: 30rpx;
+}
+.top {
+		margin-left: 20rpx;
+		display: flex;
+		align-items: center;
+		gap: 20rpx;
+		font-size: 36rpx;
+}
+.top>image {
+		width: 60rpx;
+		height: 60rpx;
+}
+.grid-nav {
+		margin-top: 15px;
+		background-color: #fff;
+		border-radius: 10px;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 24rpx;
+		margin-bottom: 40rpx;
+}
+.nav-item {
+		text-align: center;
+		padding: 10rpx;
+		background-color: #fff;
+		border-radius: 12rpx;
+		transition: transform 0.2s ease;
+}
+.nav-item image {
+		width: 60rpx;
+		height: 60rpx;
+		margin-bottom: 10rpx;
+}
+.nav-item text {
+		font-size: 24rpx;
+		color: #333;
+}
+.nav-item:active {
+		transform: scale(0.96);
+}

@@ -1,0 +1,84 @@
+
+.my-tasks.data-v-8bcf0511 {
+		padding: 20rpx;
+}
+.empty.data-v-8bcf0511 {
+		text-align: center;
+		color: #999;
+		margin-top: 100rpx;
+}
+
+	/* 卡片 */
+.task-card.data-v-8bcf0511 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: #fff;
+		border-radius: 16rpx;
+		padding: 30rpx;
+		margin-bottom: 20rpx;
+		box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+
+	/* 信息区 */
+.task-info.data-v-8bcf0511 {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+}
+.task-info.disabled.data-v-8bcf0511 {
+		opacity: 0.5;
+}
+.title.data-v-8bcf0511 {
+		font-size: 32rpx;
+		font-weight: bold;
+		color: #333;
+}
+.description.data-v-8bcf0511 {
+		font-size: 28rpx;
+		color: #666;
+		margin: 10rpx 0;
+}
+.status.data-v-8bcf0511 {
+		width: 50px;
+		font-size: 26rpx;
+		padding: 4rpx 10rpx;
+		border-radius: 8rpx;
+}
+
+	/* 不同状态色 */
+.status[data-status="待接单"].data-v-8bcf0511 {
+		background: #fff4e6;
+		color: #ff9800;
+}
+.status[data-status="进行中"].data-v-8bcf0511 {
+		background: #e3f2fd;
+		color: #007aff;
+}
+.status[data-status="已完成"].data-v-8bcf0511 {
+		background: #e8f5e9;
+		color: #4caf50;
+}
+.status[data-status="已取消"].data-v-8bcf0511 {
+		background: #f6f6f6;
+		color: #bbb;
+}
+
+	/* 按钮组 */
+.button-group.data-v-8bcf0511 {
+		display: flex;
+		flex-direction: column;
+		gap: 10rpx;
+}
+button.data-v-8bcf0511 {
+		width: 90px;
+		font-size: 28rpx;
+		border-radius: 8rpx;
+		color: #fff;
+}
+.cancel-btn.data-v-8bcf0511 {
+		background: #ff4d4f;
+}
+.delete-btn.data-v-8bcf0511 {
+		background: #999;
+}

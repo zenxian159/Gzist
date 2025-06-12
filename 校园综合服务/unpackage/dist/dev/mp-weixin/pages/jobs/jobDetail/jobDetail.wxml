@@ -1,0 +1,1 @@
+<view class="job-detail-card"><view class="job-title">{{a}}</view><view class="job-info">📄 描述: {{b}}</view><view class="job-info">📍 位置: {{c}}</view><view class="job-info">💰 薪资: ￥{{d}}</view><view class="job-info">📞 联系方式: {{e}}</view><button class="contact-btn" bindtap="{{f}}">📋 复制联系方式</button></view>

@@ -1,0 +1,64 @@
+
+/* 整体背景 */
+page {
+  background-color: #f8f9fa;
+}
+
+/* 列表项样式 */
+.job-card {
+  background: #fff;
+  margin: 24rpx;
+  padding: 30rpx;
+  border-radius: 24rpx;
+  box-shadow: 0 8rpx 16rpx rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+.job-card:active {
+  transform: scale(1.02);
+}
+.job-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+.job-desc {
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+.job-salary {
+  font-size: 32rpx;
+  color: #ff5722;
+  font-weight: bold;
+  margin-top: 16rpx;
+}
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  color: #777;
+  margin-top: 16rpx;
+}
+.detail-btn {
+  background: #409eff;
+  color: white;
+  padding: 16rpx 24rpx;
+  border-radius: 12rpx;
+  text-align: center;
+  display: block;
+  margin: 20rpx auto 0;
+  transition: background 0.3s;
+}
+.detail-btn:active {
+  background: #66b1ff;
+}
+
+/* loading & 空状态提示 */
+.loading-more,
+.no-more,
+.empty-message {
+  text-align: center;
+  color: #999;
+  padding: 30rpx 0;
+  font-size: 28rpx;
+}

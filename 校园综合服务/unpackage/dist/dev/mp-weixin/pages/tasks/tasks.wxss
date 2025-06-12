@@ -1,0 +1,132 @@
+
+.task-list.data-v-027feebf {
+		display: flex;
+		flex-direction: column;
+		padding: 20rpx;
+		gap: 20rpx;
+}
+.empty-tip.data-v-027feebf {
+		text-align: center;
+		margin-top: 60rpx;
+		color: #999;
+}
+.task-card.data-v-027feebf {
+		background: #fff;
+		border-radius: 16rpx;
+		box-shadow: 0 6rpx 20rpx rgba(0, 0, 0, 0.08);
+		padding: 24rpx;
+		display: flex;
+		flex-direction: column;
+		gap: 12rpx;
+}
+.user-info.data-v-027feebf {
+		display: flex;
+		align-items: center;
+		gap: 12rpx;
+}
+.avatar.data-v-027feebf {
+		width: 70rpx;
+		height: 70rpx;
+		border-radius: 50%;
+}
+.nickname.data-v-027feebf {
+		font-weight: bold;
+		color: #333;
+		flex: 1;
+}
+.time.data-v-027feebf {
+		font-size: 24rpx;
+		color: #999;
+}
+.title.data-v-027feebf {
+		font-size: 32rpx;
+		color: #222;
+		font-weight: bold;
+}
+.desc.data-v-027feebf {
+		font-size: 28rpx;
+		color: #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+.location.data-v-027feebf,
+	.reward.data-v-027feebf,
+	.status.data-v-027feebf {
+		font-size: 28rpx;
+		color: #444;
+}
+.status[data-status="待接单"].data-v-027feebf {
+		background: #f0ad4e;
+		color: #fff;
+		padding: 4rpx 8rpx;
+		border-radius: 8rpx;
+}
+.status[data-status="进行中"].data-v-027feebf {
+		background: #5bc0de;
+		color: #fff;
+		padding: 4rpx 8rpx;
+		border-radius: 8rpx;
+}
+.overlay.data-v-027feebf {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: transparent;
+		z-index: 999;
+}
+
+	/* 菜单按钮 */
+.menu-button.data-v-027feebf {
+		position: fixed;
+		bottom: 160rpx;
+		right: 40rpx;
+		width: 120rpx;
+		height: 120rpx;
+		background-color: rgba(32, 77, 173, 0.73);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 8rpx 12rpx rgba(0, 0, 0, 0.1);
+		z-index: 1000;
+}
+.menu-icon.data-v-027feebf {
+		width: 80rpx;
+		height: 80rpx;
+}
+
+	/* 菜单容器 */
+.menu-container.data-v-027feebf {
+		position: fixed;
+		bottom: 160rpx;
+		right: 40rpx;
+		width: 120rpx;
+		height: 120rpx;
+}
+
+	/* 菜单项 */
+.menu-item.data-v-027feebf {
+		position: absolute;
+		width: 140rpx;
+		height: 140rpx;
+		background-color: rgba(32, 77, 173, 0.73);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		opacity: 0;
+		transform: translate(0, 0);
+		transition: all 0.3s ease;
+}
+.menu-item image.data-v-027feebf {
+		width: 60rpx;
+		height: 60rpx;
+		margin-bottom: 10rpx;
+}
+.menu-item text.data-v-027feebf {
+		font-size: 24rpx;
+		color: white;
+}
